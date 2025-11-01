@@ -2,7 +2,11 @@
 
 A LangGraph-based AI agent designed to interact with patients, provide healthcare suggestions, and escalate critical cases to healthcare providers. Built with Google's Gemini AI and Streamlit for an intuitive chat interface.
 
-## 📋 Table of Contents
+## � Live Demo
+
+**Try it now:** [https://healthlinkagent.streamlit.app/](https://healthlinkagent.streamlit.app/)
+
+## �📋 Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
