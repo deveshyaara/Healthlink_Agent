@@ -1,9 +1,151 @@
-# Ignore secret API keys
+# ===========================================
+# Environment & Secrets
+# ===========================================
 .env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+*.key
+*.pem
+secrets/
 
-# Ignore Python virtual environment
-/venv
+# IMPORTANT: .env.example should only contain placeholders!
+# If you accidentally added real keys to .env.example, remove them immediately
 
-# Ignore Python cache
+# ===========================================
+# Python
+# ===========================================
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# ===========================================
+# IDE / Editors
+# ===========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===========================================
+# OS Files
+# ===========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+logs/
+*.log.*
+
+# ===========================================
+# Temporary Files
+# ===========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ===========================================
+# Database
+# ===========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# Docker
+# ===========================================
+docker-compose.override.yml
+
+# ===========================================
+# Project Specific
+# ===========================================
+# Test files
+test_gemini.py
+test_*.py
+*_test.py
+
+# Backup files
+*.backup
+*.bak
+*.old
